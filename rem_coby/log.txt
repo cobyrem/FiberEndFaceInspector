@@ -1,0 +1,25 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.9.0, pytest-8.2.2, pluggy-1.5.0 -- /Library/Frameworks/Python.framework/Versions/3.9/bin/python3.9
+cachedir: .pytest_cache
+rootdir: /Users/cobyarem/Desktop/code/image-processing-jhu/rem_final_project/rem_coby
+plugins: dash-2.12.1, Faker-23.2.1, anyio-3.6.2
+collecting ... collected 4 items
+
+test.py::test_fiber_inspection_pass_fail[00-False] 
+Expected pass/fail result for input/image_00.png: False
+Actual pass/fail result for input/image_00.png: False
+PASSED
+test.py::test_fiber_inspection_pass_fail[01-False] 
+Expected pass/fail result for input/image_01.png: False
+Actual pass/fail result for input/image_01.png: False
+PASSED
+test.py::test_fiber_inspection_pass_fail[02-True] 
+Expected pass/fail result for input/image_02.png: True
+Actual pass/fail result for input/image_02.png: True
+PASSED
+test.py::test_fiber_inspection_pass_fail[03-True] 
+Expected pass/fail result for input/image_03.png: True
+Actual pass/fail result for input/image_03.png: True
+PASSED
+
+============================== 4 passed in 11.49s ==============================
